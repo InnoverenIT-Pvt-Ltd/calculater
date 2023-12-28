@@ -1,0 +1,44 @@
+.button-default{
+	 font-size: 20px;
+     background-color: #5589c1;
+     color: white;
+}
+a.button-default-with-hyper{
+	 width: 112px;
+     font-size: 20px;
+     background-color: #5589c1;
+     color: white!important;
+}
+
+#uploadXmlBtn{
+	 width: 131px;
+   	 margin-left: 745px;
+   	 margin-top: 32px;
+   	 font-size: 20px;
+ 	 color:white;
+ 	 background-color: #5589c1;
+}
+
+#srbtn{
+	margin-left: 784px;
+    background-color: #5589c1;
+    color: white;
+   padding: 6px 12px;
+}
+#srbtn1{
+	 background-color: #5589c1;
+     color: white;
+     padding: 3px 12px;
+     margin-left: 28px;
+}
+#acpupdatebtn{
+	 background-color: #5589c1;
+     color: white;
+     padding: 3px 12px;
+}
+
+
+
+
+
+

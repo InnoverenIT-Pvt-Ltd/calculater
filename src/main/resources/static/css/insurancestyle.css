@@ -1,0 +1,114 @@
+input[type=text] {
+    width: 26%;
+    height: 35px;
+    margin: -6px 44px;
+    box-sizing: inherit;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    
+}
+
+/* start progressbar */
+ .progressbar {
+      counter-reset: step;
+          margin-top: 25px;
+  }
+  .progressbar li {
+      list-style-type: none;
+      width: 13%;
+      float: left;
+      font-size: 12px;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(199, 200, 232);
+      margin-bottom: 34px;
+}
+
+  .progressbar li:before {
+      width: 30px;
+      height: 30px;
+      content: counter(step);
+      counter-increment: step;
+      line-height: 30px;
+      border: 2px solid #7d7d7d;
+      display: block;
+      text-align: center;
+      margin: 0 auto 10px auto;
+      border-radius: 50%;
+      background-color:rgb(106, 176, 187);
+  }
+  .progressbar li:after {
+      width: 100%;
+      height: 2px;
+      content: '';
+      position: absolute;
+      background-color: #7d7d7d;
+      top: 15px;
+      left: -50%;
+      z-index: -1;
+  }
+  .progressbar li:first-child:after {
+      content: none;
+  }
+  .progressbar li.active {
+      color: green;
+  }
+  .progressbar li.active:before {
+      border-color: #55b776;
+  }
+  .progressbar li.active + li:after {
+      background-color: #55b776;
+  }
+/* end progress bar */    
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+
+/* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+}
+div.summaryTab { 
+				margin:5px; 
+				padding:5px; 
+				background-color: green; 
+				width: 500px; 
+				height:300px; 
+				overflow: auto; 
+				text-align:justify; 
+			}
+
+
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+
+
